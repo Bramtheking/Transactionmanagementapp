@@ -1,0 +1,31 @@
+name: Setup boilerplate
+
+on:
+  workflow_dispatch:
+    inputs:
+      boilerplate:
+        type: choice
+        description: Name of boilerplate
+        options:
+          - mobile-boilerplate-react-native
+          - mobile-boilerplate-ios-swift
+          - mobile-boilerplate-flutter
+          - mobile-boilerplate-android-java
+          - mobile-boilerplate-android-kotlin
+        required: true
+      branch-name:
+        type: string
+        description: Name of the branch to initialize boilerplate in
+        required: true
+        default: development
+
+
+jobs:
+  setup-boilerplate:
+    name: Setup boilerplate
+    uses: DevSkillsHQ/setup-mobile-boilerplate-workflow/.github/workflows/setup-mobile-boilerplate.yml@main
+    permissions:
+      contents: write
+    with:
+      boilerplate: ${{ github.event.inputs.boilerplate }}
+      branch-name: ${{ github.event.inputs.branch-name }}

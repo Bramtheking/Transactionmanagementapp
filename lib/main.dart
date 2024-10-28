@@ -14,6 +14,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+<<<<<<< HEAD
+=======
+      debugShowCheckedModeBanner: false,
+>>>>>>> e6365a5 (Newest commit)
       title: 'Transaction Management',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),

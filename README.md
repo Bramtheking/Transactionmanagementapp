@@ -1,4 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Transactionmanagementapp
+This is an android application which helps the kopokopo company manage their transactions
+=======
+>>>>>>> e6365a5 (Newest commit)
 # myapp
 
 A new Flutter project.
@@ -15,6 +21,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+<<<<<<< HEAD
 =======
 # Transaction Management Mobile - L2
 
@@ -105,3 +112,6 @@ GET https://infra.devskills.app/api/transaction-management/accounts/0afd02d3-6c5
 
 Authored by [Alva Labs](https://www.alvalabs.io/).
 >>>>>>> origin/bramwels-app
+=======
+>>>>>>> 9942474 (Initial commit)
+>>>>>>> e6365a5 (Newest commit)

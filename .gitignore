@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e6365a5 (Newest commit)
 # Miscellaneous
 *.class
 *.log
@@ -42,8 +45,11 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+<<<<<<< HEAD
 =======
 node_modules/
 cypress/plugins
 cypress/support
 >>>>>>> origin/bramwels-app
+=======
+>>>>>>> e6365a5 (Newest commit)
